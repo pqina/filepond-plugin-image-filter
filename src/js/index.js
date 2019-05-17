@@ -26,6 +26,9 @@ const plugin = ({ addFilter, utils }) => {
 
                 // the image needs to be filtered
                 item.setMetadata('filter', colorMatrix);
+
+                // done!
+                resolve(item);
             })
     );
 

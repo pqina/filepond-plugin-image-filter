@@ -48,6 +48,8 @@
 
         // the image needs to be filtered
         item.setMetadata('filter', colorMatrix);
+
+        resolve(item);
       });
     });
 
