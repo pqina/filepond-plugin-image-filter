@@ -1,5 +1,5 @@
 /*!
- * FilePondPluginImageFilter 1.0.0
+ * FilePondPluginImageFilter 1.0.1
  * Licensed under MIT, https://opensource.org/licenses/MIT/
  * Please visit https://pqina.nl/filepond/ for details.
  */
@@ -49,6 +49,7 @@
         // the image needs to be filtered
         item.setMetadata('filter', colorMatrix);
 
+        // done!
         resolve(item);
       });
     });
